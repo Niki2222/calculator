@@ -1,18 +1,18 @@
-function add(a, b) {
-    return a + b;
-}
-function subtract(a, b) {
-    return a - b;
-}
-function amultiply(a, b) {
-    return a * b;
-}
-function divide(a, b) {
-    return a / b;
-}
-function operate() {
+// function add(a, b) {
+//     return a + b;
+// }
+// function subtract(a, b) {
+//     return a - b;
+// }
+// function amultiply(a, b) {
+//     return a * b;
+// }
+// function divide(a, b) {
+//     return a / b;
+// }
+// function operate() {
 
-}
+// }
 
 let display = document.getElementById('display');
 let buttons = Array.from(document.getElementsByClassName('button'));
