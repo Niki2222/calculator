@@ -9,10 +9,9 @@
 }
 #display {
     text-align: right;
-    height: 50px;
-    line-height: 50px;
-    padding: 16px 8px;
-    font-size: 25px;
+    height: auto;
+    padding: 0 10px;
+    font-size: 18px;
     border: 3px solid var(--border-color);
 }
 .buttons {
@@ -21,19 +20,24 @@
     border-left: 1px solid var(--border-color);
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.button {
+.btn {
     border: 0.5px solid var(--border-color); 
     line-height: 70px;
     text-align: center;
     font-size: 25px;  
     cursor: pointer;
 }
-#equal {
+#equals {
     background-color: #00f;
     color: var(--text-color);
+    display: grid;
 }
-.button:hover {
+.btn:hover {
     background-color: darkslategray;
     color: var(--text-color);
     transition: 0.5s;
+}
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
